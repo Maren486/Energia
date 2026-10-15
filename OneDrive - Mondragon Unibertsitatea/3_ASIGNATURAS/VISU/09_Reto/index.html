@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualización de Datos</title>
+
+    <!-- 1. Carga de CSS para Nvd3.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.css" />
+
+    <!-- 2. D3.js (v7 para uso general y Plotly) -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- NOTA: Nvd3.js depende históricamente de D3.js v3.x -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+
+    <!-- 3. Nvd3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.js"></script>
+
+    <!-- 4. Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+
+<body>
+    <h1>Proyecto de Visualización</h1>
+
+    <!-- Contenedores para tus gráficos -->
+    <div id="grafico-plotly"></div>
+    <svg id="grafico-nvd3" style="height:400px; width:100%;"></svg>
+
+    <script src="app.js"></script>
+</body>
+</html>
